@@ -37,19 +37,7 @@ This will create a standalone executable in the `dist` folder.
 
 ### 4. Set up the Hotkey
 
-You have two options for setting up the hotkey:
-
-#### Option 1: Using AutoHotkey (Recommended)
-
 1. Install [AutoHotkey](https://www.autohotkey.com/)
-2. Run the `setup_hotkey.bat` script
-   - This script will look for AutoHotkey in common installation locations
-   - If AutoHotkey is not found, it will provide instructions
-
-#### Option 2: Using Windows Task Scheduler
-
-1. Run the `setup_task_scheduler.bat` script
-2. Follow the on-screen instructions to set up the hotkey in Task Scheduler
 
 ### 5. First Run
 
@@ -66,13 +54,6 @@ The first time you run the application, it will:
 4. The window will automatically close after adding the task
 
 ## Troubleshooting
-
-### AutoHotkey not found
-
-If the `setup_hotkey.bat` script says AutoHotkey is not installed even though you've installed it:
-
-1. Make sure AutoHotkey is installed in one of the standard locations
-2. Try running the `setup_task_scheduler.bat` script instead
 
 ### PyInstaller not found
 
